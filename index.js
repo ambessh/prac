@@ -19,7 +19,7 @@ console.log(`starting server at port ${port}...`);
 const router=express.Router();
 
 
-mongoose.connect(`mongodb+srv://${process.env.USER_NAME}:${process.env.USER_PASS}@cluster0-awqeb.mongodb.net/test?retryWrites=true&w=majority`,{useCreateIndex:false,useNewUrlParser:true,useUnifiedTopology:true})
+mongoose.connect(`mongodb+srv://ambesh:tiwari@cluster0-awqeb.mongodb.net/test?retryWrites=true&w=majority`,{useCreateIndex:false,useNewUrlParser:true,useUnifiedTopology:true})
 .then(result=>{
     console.log('connected to the database...');
 })
