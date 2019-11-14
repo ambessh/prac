@@ -1,0 +1,43 @@
+.myapplied1{
+    position: absolute;
+    right:30px;
+}
+
+body{
+background-position: center;
+background-repeat: no-repeat;
+background-attachment:fixed ;
+background-color: #CCC;
+}
+
+
+.jumboh1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.navbar-default{
+    background-color: lightcoral;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.flash{
+    width:20%;
+    margin: auto;
+   
+    background:#eee;
+    text-align: center;
+    border-radius: 3px;
+    padding: 0.5rem;
+    
+}
